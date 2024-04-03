@@ -1,5 +1,6 @@
 
 
+
 *{
     box-sizing: border-box;
     
@@ -8,24 +9,24 @@
 body{
     
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
     font-style: normal;
     background-color: #141414;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  
     
-    margin: 0;
-    padding: 20px;
 }
 body p {
     color: #fdfa3c;
     text-align: center;
+    
 }
 
 h1{
     color:#ffc400;
+    font-size: 22px;
     
 }
 
@@ -34,18 +35,17 @@ h1{
     background: #ffd900 ;
     cursor: pointer;
     border-radius: 80px;
-    font-size: 12px;
     padding: 4px 10px;
 }
 .btn img{
     padding: 10px 15px;
-    width: 60px;
+    width: 50px;
     
 
 }
 
 .conversor-imagen{
-    width: 150px;
+    width: 80px;
 }
 
 .moneda{
@@ -53,6 +53,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .moneda select{
@@ -60,7 +61,7 @@ h1{
     border: 1px solid #dedede;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 12px;
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
@@ -75,6 +76,7 @@ h1{
     
 }
 
+
 .taza-cambio-container{
     display: flex;
     align-items: center;
@@ -84,14 +86,14 @@ h1{
 
 .cambio{
     color:#ffffff;
-    font-size: 18px;
+    font-size: 15px;
     
 }
 
 
 footer{
     color: rgb(121, 121, 121);
-    margin-top: 50px;
+    margin-top: 5px;
     font-style: italic;
 }
 footer a{
@@ -103,4 +105,16 @@ footer a{
     
 #fechaHora{
     color: #ffffff;
+}
+
+
+
+@media (max-width:600px) {
+    .moneda input{
+        width: 200px;
+    }
+    body {
+        font-size: 14px;
+      }
+    
 }
