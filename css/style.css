@@ -111,7 +111,7 @@ select {
   color: #cfcfcf;
 }
 .taza-cambio-container .error{
-  color: #e60202;
+  color: red;
 }
 
 
